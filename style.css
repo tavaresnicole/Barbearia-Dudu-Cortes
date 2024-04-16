@@ -50,6 +50,7 @@ header {
             border: none;
             font-weight: bold;
             cursor: pointer;
+            color: #000
         }
 
         .botao-bege {
@@ -58,7 +59,6 @@ header {
 
         .botao-amarelo {
             background-color: #fdc41d;
-            color: #000;
         }
     }
 
