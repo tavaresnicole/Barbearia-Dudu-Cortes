@@ -13,9 +13,9 @@ var swiper = new Swiper(".swiper", {
 });
 
 function next() {
-  swiper.slideNext()
+  swiper.slideNext();
 }
 
 function previous(){
-  swiper.slidePrev()
+  swiper.slidePrev();
 }

@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+body {
+    background: linear-gradient(#000, #373737);
+    background-repeat: no-repeat;
+    color: white;
+    min-height: 100vh;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+
+    p {
+        font-weight: bold;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+section {
+    text-align: center;
+    width: 40vw;
+
+    p {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+}
+
+button {
+    padding: 8px;
+    margin-top: 10px;
+    border: none;
+    background-color: #FEBD4F;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #f9b43c;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    .img-barbeiros {
+        border-radius: 30px;
+        width: 20vw;
+    }
+
+    .lista {
+        padding: 30px;
+        width: 60%;
+
+        li {
+            list-style: none;
+            padding: 5px;
+            background-color: #FEBD4F;
+            border-radius: 5px;
+            margin-top: 10px;
+            color: #000;
+        }
+    }
+}
+
+.container3 {
+    background-color: #000;
+    margin-top: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    .sobre {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .sobre-mim {
+        padding: 10px;
+        width: 70vw;
+
+        p {
+            padding: 10px;
+        }
+    }
+}
+
+.container4 {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.alunos-formados {
+    background-color: #f9b43c;
+    color: #000;
+    padding: 10px;
+    text-align: center;
+}
+
+.conteudo-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.swiper {
+    width: 200px;
+    height: 300px;
+    border-radius: 15px;
+}
+
+.carrossel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+    .button-prev {
+        transform: rotate(180deg);
+        cursor: pointer;
+        margin: 10px;
+    }
+
+    .button-next {
+        cursor: pointer;
+        margin: 10px;
+    }
+}
+
+.swiper-pagination-bullet,
+swiper-pagination-bullet-active {
+    background-color: #fdc41d;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.swiper-pagination-bullet-active {
+    background: #fdc41d !important;
+}
+
+.container5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    p {
+        text-align: center;
+    }
+
+    .sobre-curso {
+        padding: 15px;
+    }
+}
+
+.container6 {
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 60px;
+}
+
+
+
+@media screen and (max-width:850px) {
+    .container1 {
+        padding: 30px;
+    }
+
+    section {
+        width: 90vw;
+    }
+
+    .img-curso {
+        width: 50vw;
+        margin-top: 15px;
+    }
+
+    .img-barbeiros {
+        width: 50vw !important;
+    }
+
+    .lista {
+        width: 100% !important;
+    }
+
+    .container3 {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding-bottom: 10px;
+
+        .sobre {
+            flex-wrap: wrap-reverse;
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .sobre-mim {
+            text-align: center;
+            width: 90vw;
+        }
+
+        .foto-dudu {
+            width: 65%;
+        }
+    }
+
+    .conteudo-container {
+        display: flex;
+        flex-direction: column;
+    }
+}
