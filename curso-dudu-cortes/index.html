@@ -17,42 +17,60 @@
 <body>
     <header>
         <nav>
-            <p>Conteúdo</p>
-            <p style="color: #FEBD4F">Curso</p>
-            <p>História</p>
+            <a href="#home">Home</a>
+            <a href="#content">Sobre nós</a>
+            <a>História</a>
+            <button>Quero garantir minha vaga!</button>
         </nav>
     </header>
 
-    <div class="container1">
-        <section>
-            <h3>
-                DESEJA SE TORNAR UM BARBEIRO PROFISSIONAL COMEÇANDO DO <span style="color: #FEBD4F">ABSOLUTO
-                    ZERO</span>?
-            </h3>
+    <section id="home" class="home">
+        <div class="img-container">
+            <img src="/images/logo-curso.png">
+        </div>
 
-            <p>Aprenda as melhores técnicas do básico ao avançado mesmo que você nunca tenha encostado em uma tesoura.
+        <div class="content">
+            <h1>
+                DESEJA SE TORNAR UM BARBEIRO PROFISSIONAL COMEÇANDO DO <br>
+                <span style="color: #FEBD4F">ABSOLUTO ZERO</span>?
+            </h1>
+
+            <p>
+                Aprenda as melhores técnicas do básico ao avançado mesmo que você nunca tenha encostado em uma tesoura.
             </p>
 
-            <button> <a href="https://api.whatsapp.com/message/QYAUYCHK2PLJE1?autoload=1&app_absent=0">Quero garantir
-                    minha vaga</a></button>
-        </section>
+            <button>
+                <a href="https://api.whatsapp.com/message/QYAUYCHK2PLJE1?autoload=1&app_absent=0">
+                    Quero garantir minha vaga
+                </a>
+            </button>
+        </div>
+    </section>
 
-        <img class="img-curso" src="/images/logo-curso.png">
-    </div>
+    <section id="content" class="content">
+        <h1>O QUE VOCÊ VAI APRENDER:</h1>
+        <p>
+            Com nossa equipe especializada em cortes e penteados, você vai aprender técnicas do básico ao avançado como:
+        </p>
 
-    <h2>O QUE VOCÊ VAI APRENDER?</h2>
+        <div class="contents">
+            <img src="/images/barbeiros.jpeg" alt="barbeiros">
 
-    <div class="container2">
-        <img class="img-barbeiros" src="/images/barbeiros.jpeg" alt="barbeiros">
+            <div class="description">
+                <ul class="lista">
+                    <li>Cortes com tesoura</li>
+                    <li>Cortes com máquina</li>
+                    <li>Cortes degradê/americano</li>
+                    <li>Design de sombrancelhas</li>
+                    <li>Pigmentação e luzes</li>
+                    <li>Técnica freestyle</li>
+                    <li>Atendimento ao cliente</li>
+                    <li>E muito mais!</li>
+                </ul>
+            </div>
+        </div>
+    </section>
 
-        <ul class="lista">
-            <li>Cortes degradê, básicos e tesoura</li>
-            <li>Como fazer barba e sobrancelha</li>
-            <li>Pigmentação e luzes</li>
-            <li>Técnica freestyle</li>
-            <li>Atendimento ao cliente</li>
-        </ul>
-    </div>
 
     <div class="container3">
         <h2>QUEM SOU EU?</h2>
@@ -140,7 +158,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
-    
+
     <script src="./script.js"></script>
     scrip
 </body>
