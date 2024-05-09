@@ -11,6 +11,12 @@
         rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
     <title>Curso Dudu Cortes</title>
 </head>
 
@@ -20,7 +26,6 @@
             <a href="#home">Home</a>
             <a href="#content">Sobre nós</a>
             <a>História</a>
-            <button>Quero garantir minha vaga!</button>
         </nav>
     </header>
 
@@ -47,7 +52,7 @@
         </div>
     </section>
 
-    <section id="content" class="content">
+    <section class="content">
         <h1>O QUE VOCÊ VAI APRENDER:</h1>
         <p>
             Com nossa equipe especializada em cortes e penteados, você vai aprender técnicas do básico ao avançado como:
@@ -57,7 +62,7 @@
             <img src="/images/barbeiros.jpeg" alt="barbeiros">
 
             <div class="description">
-                <ul class="lista">
+                <ul>
                     <li>Cortes com tesoura</li>
                     <li>Cortes com máquina</li>
                     <li>Cortes degradê/americano</li>
@@ -87,21 +92,21 @@
         </div>
     </section>
 
-    <div class="container4">
+    <section class="missao">
         <h2>MINHA MISSÃO</h2>
         <p>
             Minha missão é transformar vidas, além de cortar cabelos e aumentar autoestimas, eu ensino pessoas a mudarem
             de vida através da profissão, assim como eu.
         </p>
-    </div>
+    </section>
 
     <h2 class="alunos-formados">
         MAIS DE 150 ALUNOS FORMADOS
     </h2>
 
-    <container class="conteudo-container">
+    <container class="container">
         <div class="carrossel">
-            <img onclick="previous(0)" class="button-prev" src="/images/arrow.png" width="20px" height="20px">
+            <span onclick="previous()" class="control material-symbols-outlined">chevron_left</span>
             <div class="swiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide"><img src="/images/aluno01.jpeg" alt=""></div>
@@ -110,31 +115,34 @@
                 </div>
                 <div class="swiper-pagination"></div>
             </div>
-            <img onclick="next(0)" class="button-next" src="/images/arrow.png" width="20px" height="20px">
+            <span onclick="next()" class="control material-symbols-outlined">chevron_right</span>
         </div>
     </container>
 
-    <div class="container5">
+    <section class="sobre">
         <h3>SOBRE O CURSO</h3>
-        <div class="sobre-curso">
+        <div class="infos">
             <p>Duração de 3 meses</p>
             <p>1 aula por semana</p>
         </div>
         <p>
             Diploma figurado em mais de 100 países, pela Federação das Escolas Profissionais.
         </p>
-        <button><a href="https://api.whatsapp.com/message/QYAUYCHK2PLJE1?autoload=1&app_absent=0">Quero garantir minha
-                vaga</a></button>
-    </div>
+        <button>
+            <a href="https://api.whatsapp.com/message/QYAUYCHK2PLJE1?autoload=1&app_absent=0">
+                Quero garantir minha vaga
+            </a>
+        </button>
+    </section>
 
-    <div class="container6">
-        <h2 style="background-color: black; padding: 10px;">
+    <div class="carrossel-curso">
+        <h2 style="background-color: black; padding: 10px; width: 100%;">
             DOS CORTES BÁSICOS <br> AOS MAIS MODERNOS
         </h2>
 
-        <container class="conteudo-container">
+        <container class="container">
             <div class="carrossel">
-                <img onclick="previous(1)" class="button-prev" src="/images/arrow.png" width="20px" height="20px">
+                <span onclick="previous()" class="control material-symbols-outlined">chevron_left</span>
                 <div class="swiper">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide"><img src="/images/img-corte-navalha.jpeg" alt=""></div>
@@ -146,20 +154,21 @@
                     </div>
                     <div class="swiper-pagination"></div>
                 </div>
-                <img onclick="next(1)" class="button-next" src="/images/arrow.png" width="20px" height="20px">
+                <span onclick="next()" class="control material-symbols-outlined">chevron_right</span>
             </div>
         </container>
 
         <h2 style="color:#FEBD4F">GARANTA JÁ SUA VAGA E SE TORNE REFERÊNCIA NA PROFISSÃO!</h2>
-        <button><a href="https://api.whatsapp.com/message/QYAUYCHK2PLJE1?autoload=1&app_absent=0">Quero garantir minha
-                vaga</a></button>
+        <button>
+            <a href="https://api.whatsapp.com/message/QYAUYCHK2PLJE1?autoload=1&app_absent=0">
+                Quero garantir minha vaga
+            </a></button>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
 
     <script src="./script.js"></script>
-    scrip
 </body>
 
 </html>
