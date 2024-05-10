@@ -61,7 +61,7 @@ nav {
     padding: 10px 0;
     background-color: rgba(0, 0, 0, 0.56);
     animation: fade 1s forwards;
-    animation-delay: 1s;
+    animation-delay: 0.5s;
     opacity: 0;
 
     a {
