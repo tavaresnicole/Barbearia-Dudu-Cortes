@@ -60,6 +60,9 @@ nav {
     column-gap: 30px;
     padding: 10px 0;
     background-color: rgba(0, 0, 0, 0.56);
+    animation: fade 1s forwards;
+    animation-delay: 1s;
+    opacity: 0;
 
     a {
         color: white;
@@ -99,6 +102,9 @@ nav {
         img {
             object-fit: contain;
             height: 280px;
+            animation: fade 3s forwards;
+            animation-delay: 1.5s;
+            opacity: 0;
         }
     }
 }
@@ -106,10 +112,28 @@ nav {
 .content {
     display: flex;
     flex-direction: column;
-    
+
+    .title{
+        animation: fade 2s forwards; 
+        animation-delay: 2s;
+        opacity: 0;
+    }
+
+    .p{
+        animation: fade 2s forwards; 
+        animation-delay: 2.5s;
+        opacity: 0;
+    }
+
     p {
         font-size: 1rem;
         margin-bottom: 20px;
+    }
+
+    button{
+        animation: fade 2s forwards; 
+        animation-delay: 3s;
+        opacity: 0;
     }
 
     .contents {
@@ -395,6 +419,16 @@ swiper-pagination-bullet-active {
         }
     }
 
+}
+
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
 }
 
 ::-webkit-scrollbar {
